@@ -1,0 +1,36 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20p;
+    color: #00f;
+}
+p[class="paragrafo1"]{
+    background-color: beige;
+    padding: 5px;
+}
+/* O atributo "~" é usado pra quando a classe contenha algum valor, no caso da classe que foi usada "padrao teste" foi atribuido as formatações ao valor que foi estabelecido, "padrao" */
+p[class~="padrao"]{
+    background-color: purple;
+    padding: 10px;
+    border: 1px solid;
+}
+/* É usado pra quando a classe começa com algum determinado valor, no caso das 2 classes "vermelho-forte e vermelho-fraco" começam com o valor "vermelho"*/
+p[class^="vermelho"]{
+    background-color: red;
+    padding: 10px;
+    border: 1px solid;
+}
+/* Usado pra quando a classe termina com algum determinado valor, como por exemplo "verde-pequeno"*/
+p[class$="pequeno"]{
+    background-color: green;
+    padding: 10px;
+    border: 1px solid;
+}
+
+hr {
+    border: none;       /* Remove a borda padrão */
+    height: 2px;        /* Define a espessura (grossura) */
+    background-color: #333; /* Define a cor */
+}
+input:not([type="submit"]){
+    padding: 5px;
+}
