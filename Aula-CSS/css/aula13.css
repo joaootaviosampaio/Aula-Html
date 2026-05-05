@@ -1,0 +1,41 @@
+#container{
+    width: 960px;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 5px #ddd;
+    /*box-shadow é CSS3 */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+nav li{
+    margin: 0 15px;
+}
+#conteudo_principal{
+    width: 500px;
+    border: 1px solid #999;
+    padding: 5px;
+    float: left;
+}
+#conteudo_lateral {
+    width: 436px;
+    height: 326px;
+    border: 1px solid #999;
+    padding: 5px;
+    float: left;
+}
+#footer{
+    clear: both;
+    border: 1px solid #999;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+#footer ul{
+    list-style: none;
+}

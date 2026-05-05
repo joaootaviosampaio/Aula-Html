@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formularios.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários</h1>
+        <ul>
+            <li>Input</li>
+            <li>Padding</li>
+            <li>Bordered</li>
+            <li>Colored</li>
+            <li>Focused</li>
+            <li>Com ícone/imagem</li>
+            <li>Textareas</li>
+            <li>Selects</li>
+            <li>Botões</li>
+        </ul><hr/>
+        <div>
+            <form>
+                <input type="search" placeholder="BUSCA">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="rj">RJ</option>
+                    <option value="sp">SP</option>
+                    <option value="go">GO</option>
+                </select>
+                <label for="obs">Observações</label>
+                <textarea name="obs" id="obs"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

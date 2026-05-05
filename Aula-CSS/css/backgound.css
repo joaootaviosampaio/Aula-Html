@@ -1,0 +1,22 @@
+.exemplo1{
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+.exemplo2{
+    background-image: url(../imagens/bg1.png);
+    width: 1000px;
+    height: 200px;
+    background-repeat: repeat-x;
+}
+.exemplo3{
+    background-image: url(../imagens/bg1.png);
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.denominacao{
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,17 @@
+label, input[type=submit]{
+    display: block;
+}
+label:not(:first-child), input:last-child{
+    margin-top: 10px;
+}
+input:not([type=submit]), select{
+    padding: 5px;
+    border: 2px solid ;
+}
+input:not([type=submit]):focus, textarea:focus, select:focus{
+    box-shadow: 0px 0px 5px 5px #999;
+}
+input[type=search]{
+    border-radius: 5px;
+    padding: 10PX;
+}

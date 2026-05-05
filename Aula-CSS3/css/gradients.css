@@ -1,0 +1,12 @@
+#div1{
+    width: 600px;
+    height: 200px;
+    border: 2px solid;
+    background: linear-gradient( to bottom right, purple, blue);
+}
+#div2{
+    width: 600px;
+    height: 200px;
+    border: 2px solid;
+    background: radial-gradient(blue, purple)
+}
